@@ -17,6 +17,14 @@ public class Student {
 		this.cicle = cicle;
 		this.any = any;
 	}
+
+	public Student(String nom, String cognom, int age, String cicle, int any) {
+		this.nom = nom;
+		this.cognom = cognom;
+		this.age = age;
+		this.cicle = cicle;
+		this.any = any;
+	}
 	
 	public Student() {
 	}
